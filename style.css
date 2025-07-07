@@ -63,12 +63,12 @@ body{
   border-radius: 5px;
   margin: 2px;
   font-family: 'Poppins-Light', sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   padding: 5px;
 }
 .blank-link a:hover{
   background: #e5b7f5;
-  color:#a172b0;
+  color:#570572;
 }
 .developer{
   color: #82697f;
