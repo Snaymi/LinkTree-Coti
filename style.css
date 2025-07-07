@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Nunito';
-  src: url('font/Nunito-VariableFont_wght.ttf');
+  font-family: 'Poppins';
+  src: url('font/Poppins-Medium.ttf') format('truetype');
 }
 body{
   margin:0;
@@ -11,26 +11,29 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: -0.5px;
 }
 .content{
-  width: 300px;
-  height: 500px;
+  width: 350px;
+  height: 550px;
   background: #f2dfe1;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 .profile-img{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 150px;
-  height: 120px;
+  height: 150px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 5px solid #482950;
   margin: 10px  0 10px 0;
   box-shadow: 0 0 10px rgba(101, 1, 102, 0.733);
 }
@@ -50,11 +53,11 @@ body{
   background:#2c033b;
   color: white; 
   text-decoration: none;
-  width: 200px;
+  width: 250px;
   height:20px;
   border: 1px solid black;
-  border-radius: 2px;
-  margin:5px;
+  border-radius: 5px;
+  margin: 2px;
   font-size: 20px;
   padding: 5px;
 }
@@ -64,19 +67,22 @@ body{
 }
 .coti{
   color: #82697f;
-  margin:15px 0 3px 0;
+  margin:0 0 25px 0;
 }
 h1{
   color: #46204d;
-  margin: 10px;
+  margin: 10px 0 -6px 0;
+  font-size: 35px;
+  letter-spacing: -2.5px;
 }
 h2{
-  margin:0;
-  font-size:20px;
+  margin:0 0 1px 0;
+  font-size: 16px;
   color:#a657ba;
 }
 p{
   text-align: center;
   font-size: 13px;
-  margin:5px;
+  margin:10px 30px 0 30px;
+  color: rgba(85, 80, 86, 0.746)
 }
