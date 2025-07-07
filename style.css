@@ -2,6 +2,10 @@
   font-family: 'Poppins';
   src: url('font/Poppins-Medium.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Poppins';
+  src: url('font/Poppins-Light.ttf') format('truetype');
+}
 body{
   margin:0;
   padding:0;
@@ -58,19 +62,21 @@ body{
   border: 1px solid black;
   border-radius: 5px;
   margin: 2px;
-  font-size: 20px;
+  font-family: 'Poppins-Light', sans-serif;
+  font-size: 14px;
   padding: 5px;
 }
 .blank-link a:hover{
   background: #e5b7f5;
   color:#a172b0;
 }
-.coti{
+.developer{
   color: #82697f;
   margin:0 0 25px 0;
+  font: bold 15px 'Poppins', sans-serif;
 }
 h1{
-  color: #46204d;
+  color: #572460;
   margin: 10px 0 -6px 0;
   font-size: 35px;
   letter-spacing: -2.5px;
